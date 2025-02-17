@@ -7,6 +7,11 @@ import org.junit.jupiter.api.Test;
 
 public class AppTest {
 
+    /**
+     * This test checks if the App class has a greeting.
+     * It ensures that the getGreeting() method returns a non-null value.
+     */
+
     @Test
     public void testAppHasAGreeting() {
         App app = new App();
